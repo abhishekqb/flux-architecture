@@ -1,0 +1,21 @@
+.loginput
+{
+	width:235px;
+	height:30px;
+	margin-top:3%;
+	padding: 1%;
+}
+.buttonwrapper
+{
+	margin-top:4%;
+	margin-bottom:10%;
+}
+.formwrapper
+{
+	padding-top:5%;
+	width:30%;
+	text-align:center;
+	margin:auto;
+	height:1%;
+	border:1px solid;
+}
