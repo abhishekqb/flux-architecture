@@ -12,5 +12,5 @@ var Home = require('./components/Home.react');
 
 ReactDOM.render(<Router history={browserHistory}>
 					<Route path='/' component={Login}></Route>
-					<Route path='/home' component={Home}></Route>
+					<Route path='home' component={Home}></Route>
 				</Router>, document.getElementById('app'));
