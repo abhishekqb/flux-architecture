@@ -1,19 +1,25 @@
 var React = require('react');
 var Link = require('react-router').Link;
 
+var Nav = require('react-bootstrap').Nav;
+var NavItem = require('react-bootstrap').NavItem;
+var Button = require('react-bootstrap').Button;
+
+var AppNavBar = require('./NavBar.react');
 var Layout = React.createClass({
 	render:function(){
 		return (
 				<div>
-				<header>
-					<ul>
-						<li><Link to={'/'}>Home</Link></li>
-						<li><Link to={'about'}>About</Link></li>
-						<li><Link to={'contact'}>Contact</Link></li>
-						<li><Link to={'products'}>Product</Link></li>
-					</ul>
-				</header>
-				<main>{this.props.children}</main>
+					<AppNavBar>
+						<Nav>
+							<NavItem><Link to={'/'}>Home</Link></NavItem>
+							<NavItem><Link to={'about'}>About</Link></NavItem>
+							<NavItem><Link to={'contact'}>Contact</Link></NavItem>
+							<NavItem><Link to={'products'}>Products</Link></NavItem>
+						</Nav>
+					</AppNavBar>
+					<main>{this.props.children}</main>
+				<Button className='custom-button'>Up</Button>
 				</div>
 				)
 	}
