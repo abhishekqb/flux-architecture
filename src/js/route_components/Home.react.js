@@ -4,6 +4,8 @@ var Grid = require('react-bootstrap').Grid;
 var Col = require('react-bootstrap').Col;
 var Row = require('react-bootstrap').Row;
 
+var Button = require('react-bootstrap').Button;
+
 var AppCarousel = require('./Carousel.react');
 
 var Home = React.createClass({
@@ -18,6 +20,7 @@ var Home = React.createClass({
 						<Col md={2}></Col>
 					</Row>
 				</Grid>
+			   	<Button bsClass='custom-button'>Up</Button>
 			   </div>
 			   );
 	}

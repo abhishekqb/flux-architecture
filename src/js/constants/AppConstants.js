@@ -2,5 +2,7 @@ var keymirror = require("keymirror");
 
 module.exports = keymirror({
 	LOGIN_ACTION:null,
-	SAVE_ACTION:null
+	SAVE_ACTION:null,
+	SHUFFLE:null,
+	SELECT:null,
 });

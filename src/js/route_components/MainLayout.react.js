@@ -3,7 +3,6 @@ var Link = require('react-router').Link;
 
 var Nav = require('react-bootstrap').Nav;
 var NavItem = require('react-bootstrap').NavItem;
-var Button = require('react-bootstrap').Button;
 
 var AppNavBar = require('./NavBar.react');
 var Layout = React.createClass({
@@ -19,7 +18,6 @@ var Layout = React.createClass({
 						</Nav>
 					</AppNavBar>
 					<main>{this.props.children}</main>
-				<Button className='custom-button'>Up</Button>
 				</div>
 				)
 	}

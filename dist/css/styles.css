@@ -41,7 +41,7 @@ body
     z-index: 2;
     box-shadow: 0px 10px 15px #161823;
 }
-.btn.btn-default.custom-button
+.custom-button.custom-button-default
 {
 	position: fixed;
     bottom: 5%;
@@ -52,4 +52,53 @@ body
     color: #e6e6e6;
     background-color: #0b0c0c;
     border: none;
+}
+
+.custom-button.custom-button-default:hover
+{
+	z-index: 1;
+    box-shadow: 0px 10px 15px #161823;
+}
+
+.custom-button.custom-button-default:focus
+{
+	outline:none;
+}
+
+.cell
+{ 
+border-right: 1px solid #000000; 
+border-bottom: 1px solid #000000; 
+float: left; 
+width: 50px; 
+height: 50px;
+padding: 6%;
+color: white;
+background-color: #5188cc; 
+}
+
+.selected-cell
+{ 
+border-right: 1px solid #000000; 
+border-bottom: 1px solid #000000; 
+float: left; 
+width: 50px; 
+height: 50px;
+padding: 6%;
+color: white;
+background-color: #3366a5; 
+}
+
+
+.custom-row 
+{ 
+clear: both; 
+overflow: hidden; 
+}
+.game
+{ border-left: 1px solid #000000; 
+  border-top: 1px solid #000000;
+  height:250px;
+  width:251px;
+  margin:auto; 
 }
