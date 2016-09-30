@@ -102,3 +102,35 @@ overflow: hidden;
   width:251px;
   margin:auto; 
 }
+.timer
+{
+font-weight: bold;
+font-size: 40px;
+margin:auto;
+width:200px;
+height:100px;
+text-align: center;
+padding:30px;
+}
+
+.pulse
+{
+	animation-name: pulse_animation;
+	animation-duration: 1000ms;
+	transform-origin:70% 70%;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+@keyframes pulse_animation {
+	0% { transform: scale(1); }
+	10% { transform: scale(1.02); }
+	20% { transform: scale(1.04); }	
+	30% { transform: scale(1.06); }
+	40% { transform: scale(1.08); }
+	50% { transform: scale(1.10); }
+	60% { transform: scale(1.08); }
+	70% { transform: scale(1.06); }
+	80% { transform: scale(1.04); }
+	90% { transform: scale(1.02); }
+	100% { transform: scale(1); }
+}

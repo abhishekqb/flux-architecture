@@ -50,6 +50,9 @@ var About = React.createClass({
 	onStateChange:function(){
 		this.setState(AboutStore.getState);
 	},
+	componentWillMount:function(){
+		console.log(AboutStore.getTimer().started());
+	},
 	componentDidMount:function(){
 		AboutStore.addEventListener(this.onStateChange);
 	},
@@ -79,7 +82,14 @@ var About = React.createClass({
 	 <div>
 	 <div className='game'>{this.buildrows()}</div>
 	 <Button onClick={this.onShuffle} bsClass='custom-button'>Up</Button>
+	 <p className={this.getTimerClass()}>{this.state.timer}</p>
 	 </div> )
+	},
+	getTimerClass:function(){
+		if(this.state.expected===1||this.state.expected===26)
+			return 'timer';
+		else
+			return 'timer pulse'
 	}
 });
 

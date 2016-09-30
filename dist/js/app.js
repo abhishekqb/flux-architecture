@@ -5098,7 +5098,7 @@ exports.stringify = function (obj) {
 	}).join('&') : '';
 };
 
-},{"strict-uri-encode":486}],162:[function(require,module,exports){
+},{"strict-uri-encode":487}],162:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -6671,7 +6671,7 @@ Checkbox.defaultProps = defaultProps;
 exports['default'] = (0, _bootstrapUtils.bsClass)('checkbox', Checkbox);
 module.exports = exports['default'];
 }).call(this,require('_process'))
-},{"./utils/bootstrapUtils":253,"_process":160,"babel-runtime/helpers/classCallCheck":9,"babel-runtime/helpers/extends":10,"babel-runtime/helpers/inherits":11,"babel-runtime/helpers/objectWithoutProperties":12,"babel-runtime/helpers/possibleConstructorReturn":13,"classnames":15,"react":485,"warning":490}],174:[function(require,module,exports){
+},{"./utils/bootstrapUtils":253,"_process":160,"babel-runtime/helpers/classCallCheck":9,"babel-runtime/helpers/extends":10,"babel-runtime/helpers/inherits":11,"babel-runtime/helpers/objectWithoutProperties":12,"babel-runtime/helpers/possibleConstructorReturn":13,"classnames":15,"react":485,"warning":491}],174:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -7438,7 +7438,7 @@ ControlLabel.contextTypes = contextTypes;
 exports['default'] = (0, _bootstrapUtils.bsClass)('control-label', ControlLabel);
 module.exports = exports['default'];
 }).call(this,require('_process'))
-},{"./utils/bootstrapUtils":253,"_process":160,"babel-runtime/helpers/classCallCheck":9,"babel-runtime/helpers/extends":10,"babel-runtime/helpers/inherits":11,"babel-runtime/helpers/objectWithoutProperties":12,"babel-runtime/helpers/possibleConstructorReturn":13,"classnames":15,"react":485,"warning":490}],178:[function(require,module,exports){
+},{"./utils/bootstrapUtils":253,"_process":160,"babel-runtime/helpers/classCallCheck":9,"babel-runtime/helpers/extends":10,"babel-runtime/helpers/inherits":11,"babel-runtime/helpers/objectWithoutProperties":12,"babel-runtime/helpers/possibleConstructorReturn":13,"classnames":15,"react":485,"warning":491}],178:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -7845,7 +7845,7 @@ UncontrolledDropdown.Menu = _DropdownMenu2['default'];
 exports['default'] = UncontrolledDropdown;
 module.exports = exports['default'];
 }).call(this,require('_process'))
-},{"./ButtonGroup":168,"./DropdownMenu":180,"./DropdownToggle":181,"./utils/PropTypes":249,"./utils/ValidComponentChildren":252,"./utils/bootstrapUtils":253,"./utils/createChainedFunction":255,"_process":160,"babel-runtime/helpers/classCallCheck":9,"babel-runtime/helpers/extends":10,"babel-runtime/helpers/inherits":11,"babel-runtime/helpers/objectWithoutProperties":12,"babel-runtime/helpers/possibleConstructorReturn":13,"classnames":15,"dom-helpers/activeElement":105,"dom-helpers/query/contains":115,"keycode":157,"react":485,"react-dom":259,"react-prop-types/lib/all":275,"react-prop-types/lib/elementType":277,"react-prop-types/lib/isRequiredForA11y":278,"uncontrollable":488,"warning":490}],179:[function(require,module,exports){
+},{"./ButtonGroup":168,"./DropdownMenu":180,"./DropdownToggle":181,"./utils/PropTypes":249,"./utils/ValidComponentChildren":252,"./utils/bootstrapUtils":253,"./utils/createChainedFunction":255,"_process":160,"babel-runtime/helpers/classCallCheck":9,"babel-runtime/helpers/extends":10,"babel-runtime/helpers/inherits":11,"babel-runtime/helpers/objectWithoutProperties":12,"babel-runtime/helpers/possibleConstructorReturn":13,"classnames":15,"dom-helpers/activeElement":105,"dom-helpers/query/contains":115,"keycode":157,"react":485,"react-dom":259,"react-prop-types/lib/all":275,"react-prop-types/lib/elementType":277,"react-prop-types/lib/isRequiredForA11y":278,"uncontrollable":489,"warning":491}],179:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -8603,7 +8603,7 @@ FormControl.Static = _FormControlStatic2['default'];
 exports['default'] = (0, _bootstrapUtils.bsClass)('form-control', FormControl);
 module.exports = exports['default'];
 }).call(this,require('_process'))
-},{"./FormControlFeedback":185,"./FormControlStatic":186,"./utils/bootstrapUtils":253,"_process":160,"babel-runtime/helpers/classCallCheck":9,"babel-runtime/helpers/extends":10,"babel-runtime/helpers/inherits":11,"babel-runtime/helpers/objectWithoutProperties":12,"babel-runtime/helpers/possibleConstructorReturn":13,"classnames":15,"react":485,"react-prop-types/lib/elementType":277,"warning":490}],185:[function(require,module,exports){
+},{"./FormControlFeedback":185,"./FormControlStatic":186,"./utils/bootstrapUtils":253,"_process":160,"babel-runtime/helpers/classCallCheck":9,"babel-runtime/helpers/extends":10,"babel-runtime/helpers/inherits":11,"babel-runtime/helpers/objectWithoutProperties":12,"babel-runtime/helpers/possibleConstructorReturn":13,"classnames":15,"react":485,"react-prop-types/lib/elementType":277,"warning":491}],185:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -11922,7 +11922,7 @@ Nav.contextTypes = contextTypes;
 exports['default'] = (0, _bootstrapUtils.bsClass)('nav', (0, _bootstrapUtils.bsStyles)(['tabs', 'pills'], Nav));
 module.exports = exports['default'];
 }).call(this,require('_process'))
-},{"./utils/ValidComponentChildren":252,"./utils/bootstrapUtils":253,"./utils/createChainedFunction":255,"_process":160,"babel-runtime/helpers/classCallCheck":9,"babel-runtime/helpers/extends":10,"babel-runtime/helpers/inherits":11,"babel-runtime/helpers/objectWithoutProperties":12,"babel-runtime/helpers/possibleConstructorReturn":13,"classnames":15,"keycode":157,"react":485,"react-dom":259,"react-prop-types/lib/all":275,"warning":490}],214:[function(require,module,exports){
+},{"./utils/ValidComponentChildren":252,"./utils/bootstrapUtils":253,"./utils/createChainedFunction":255,"_process":160,"babel-runtime/helpers/classCallCheck":9,"babel-runtime/helpers/extends":10,"babel-runtime/helpers/inherits":11,"babel-runtime/helpers/objectWithoutProperties":12,"babel-runtime/helpers/possibleConstructorReturn":13,"classnames":15,"keycode":157,"react":485,"react-dom":259,"react-prop-types/lib/all":275,"warning":491}],214:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -12467,7 +12467,7 @@ UncontrollableNavbar.Link = createSimpleWrapper('a', 'link', 'NavbarLink');
 // Set bsStyles here so they can be overridden.
 exports['default'] = (0, _bootstrapUtils.bsStyles)([_StyleConfig.Style.DEFAULT, _StyleConfig.Style.INVERSE], _StyleConfig.Style.DEFAULT, UncontrollableNavbar);
 module.exports = exports['default'];
-},{"./Grid":189,"./NavbarBrand":217,"./NavbarCollapse":218,"./NavbarHeader":219,"./NavbarToggle":220,"./utils/StyleConfig":250,"./utils/bootstrapUtils":253,"babel-runtime/helpers/classCallCheck":9,"babel-runtime/helpers/extends":10,"babel-runtime/helpers/inherits":11,"babel-runtime/helpers/objectWithoutProperties":12,"babel-runtime/helpers/possibleConstructorReturn":13,"classnames":15,"react":485,"react-prop-types/lib/elementType":277,"uncontrollable":488}],217:[function(require,module,exports){
+},{"./Grid":189,"./NavbarBrand":217,"./NavbarCollapse":218,"./NavbarHeader":219,"./NavbarToggle":220,"./utils/StyleConfig":250,"./utils/bootstrapUtils":253,"babel-runtime/helpers/classCallCheck":9,"babel-runtime/helpers/extends":10,"babel-runtime/helpers/inherits":11,"babel-runtime/helpers/objectWithoutProperties":12,"babel-runtime/helpers/possibleConstructorReturn":13,"classnames":15,"react":485,"react-prop-types/lib/elementType":277,"uncontrollable":489}],217:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -13306,7 +13306,7 @@ OverlayTrigger.defaultProps = defaultProps;
 exports['default'] = OverlayTrigger;
 module.exports = exports['default'];
 }).call(this,require('_process'))
-},{"./Overlay":221,"./utils/createChainedFunction":255,"_process":160,"babel-runtime/helpers/classCallCheck":9,"babel-runtime/helpers/extends":10,"babel-runtime/helpers/inherits":11,"babel-runtime/helpers/objectWithoutProperties":12,"babel-runtime/helpers/possibleConstructorReturn":13,"dom-helpers/query/contains":115,"react":485,"react-dom":259,"warning":490}],223:[function(require,module,exports){
+},{"./Overlay":221,"./utils/createChainedFunction":255,"_process":160,"babel-runtime/helpers/classCallCheck":9,"babel-runtime/helpers/extends":10,"babel-runtime/helpers/inherits":11,"babel-runtime/helpers/objectWithoutProperties":12,"babel-runtime/helpers/possibleConstructorReturn":13,"dom-helpers/query/contains":115,"react":485,"react-dom":259,"warning":491}],223:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -14970,7 +14970,7 @@ Radio.defaultProps = defaultProps;
 exports['default'] = (0, _bootstrapUtils.bsClass)('radio', Radio);
 module.exports = exports['default'];
 }).call(this,require('_process'))
-},{"./utils/bootstrapUtils":253,"_process":160,"babel-runtime/helpers/classCallCheck":9,"babel-runtime/helpers/extends":10,"babel-runtime/helpers/inherits":11,"babel-runtime/helpers/objectWithoutProperties":12,"babel-runtime/helpers/possibleConstructorReturn":13,"classnames":15,"react":485,"warning":490}],234:[function(require,module,exports){
+},{"./utils/bootstrapUtils":253,"_process":160,"babel-runtime/helpers/classCallCheck":9,"babel-runtime/helpers/extends":10,"babel-runtime/helpers/inherits":11,"babel-runtime/helpers/objectWithoutProperties":12,"babel-runtime/helpers/possibleConstructorReturn":13,"classnames":15,"react":485,"warning":491}],234:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -15081,7 +15081,7 @@ ResponsiveEmbed.defaultProps = defaultProps;
 exports['default'] = (0, _bootstrapUtils.bsClass)('embed-responsive', ResponsiveEmbed);
 module.exports = exports['default'];
 }).call(this,require('_process'))
-},{"./utils/bootstrapUtils":253,"_process":160,"babel-runtime/helpers/classCallCheck":9,"babel-runtime/helpers/extends":10,"babel-runtime/helpers/inherits":11,"babel-runtime/helpers/objectWithoutProperties":12,"babel-runtime/helpers/possibleConstructorReturn":13,"classnames":15,"react":485,"warning":490}],235:[function(require,module,exports){
+},{"./utils/bootstrapUtils":253,"_process":160,"babel-runtime/helpers/classCallCheck":9,"babel-runtime/helpers/extends":10,"babel-runtime/helpers/inherits":11,"babel-runtime/helpers/objectWithoutProperties":12,"babel-runtime/helpers/possibleConstructorReturn":13,"classnames":15,"react":485,"warning":491}],235:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -15709,7 +15709,7 @@ TabContainer.childContextTypes = childContextTypes;
 
 exports['default'] = (0, _uncontrollable2['default'])(TabContainer, { activeKey: 'onSelect' });
 module.exports = exports['default'];
-},{"babel-runtime/helpers/classCallCheck":9,"babel-runtime/helpers/inherits":11,"babel-runtime/helpers/objectWithoutProperties":12,"babel-runtime/helpers/possibleConstructorReturn":13,"react":485,"uncontrollable":488}],241:[function(require,module,exports){
+},{"babel-runtime/helpers/classCallCheck":9,"babel-runtime/helpers/inherits":11,"babel-runtime/helpers/objectWithoutProperties":12,"babel-runtime/helpers/possibleConstructorReturn":13,"react":485,"uncontrollable":489}],241:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -16229,7 +16229,7 @@ TabPane.childContextTypes = childContextTypes;
 exports['default'] = (0, _bootstrapUtils.bsClass)('tab-pane', TabPane);
 module.exports = exports['default'];
 }).call(this,require('_process'))
-},{"./Fade":182,"./utils/bootstrapUtils":253,"./utils/createChainedFunction":255,"_process":160,"babel-runtime/helpers/classCallCheck":9,"babel-runtime/helpers/extends":10,"babel-runtime/helpers/inherits":11,"babel-runtime/helpers/objectWithoutProperties":12,"babel-runtime/helpers/possibleConstructorReturn":13,"classnames":15,"react":485,"react-prop-types/lib/elementType":277,"warning":490}],243:[function(require,module,exports){
+},{"./Fade":182,"./utils/bootstrapUtils":253,"./utils/createChainedFunction":255,"_process":160,"babel-runtime/helpers/classCallCheck":9,"babel-runtime/helpers/extends":10,"babel-runtime/helpers/inherits":11,"babel-runtime/helpers/objectWithoutProperties":12,"babel-runtime/helpers/possibleConstructorReturn":13,"classnames":15,"react":485,"react-prop-types/lib/elementType":277,"warning":491}],243:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -16537,7 +16537,7 @@ Tabs.defaultProps = defaultProps;
 
 exports['default'] = (0, _uncontrollable2['default'])(Tabs, { activeKey: 'onSelect' });
 module.exports = exports['default'];
-},{"./Nav":213,"./NavItem":215,"./TabContainer":240,"./TabContent":241,"./utils/ValidComponentChildren":252,"./utils/bootstrapUtils":253,"babel-runtime/helpers/classCallCheck":9,"babel-runtime/helpers/extends":10,"babel-runtime/helpers/inherits":11,"babel-runtime/helpers/objectWithoutProperties":12,"babel-runtime/helpers/possibleConstructorReturn":13,"react":485,"react-prop-types/lib/isRequiredForA11y":278,"uncontrollable":488}],245:[function(require,module,exports){
+},{"./Nav":213,"./NavItem":215,"./TabContainer":240,"./TabContent":241,"./utils/ValidComponentChildren":252,"./utils/bootstrapUtils":253,"babel-runtime/helpers/classCallCheck":9,"babel-runtime/helpers/extends":10,"babel-runtime/helpers/inherits":11,"babel-runtime/helpers/objectWithoutProperties":12,"babel-runtime/helpers/possibleConstructorReturn":13,"react":485,"react-prop-types/lib/isRequiredForA11y":278,"uncontrollable":489}],245:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -17957,7 +17957,7 @@ function _resetWarned() {
   warned = {};
 }
 }).call(this,require('_process'))
-},{"_process":160,"babel-runtime/helpers/classCallCheck":9,"babel-runtime/helpers/inherits":11,"babel-runtime/helpers/possibleConstructorReturn":13,"babel-runtime/helpers/typeof":14,"warning":490}],257:[function(require,module,exports){
+},{"_process":160,"babel-runtime/helpers/classCallCheck":9,"babel-runtime/helpers/inherits":11,"babel-runtime/helpers/possibleConstructorReturn":13,"babel-runtime/helpers/typeof":14,"warning":491}],257:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -18517,7 +18517,7 @@ Modal.manager = modalManager;
 
 exports.default = Modal;
 module.exports = exports['default'];
-},{"./ModalManager":261,"./Portal":263,"./utils/addEventListener":267,"./utils/addFocusListener":268,"./utils/getContainer":271,"./utils/ownerDocument":274,"dom-helpers/activeElement":105,"dom-helpers/query/contains":115,"dom-helpers/util/inDOM":132,"react":485,"react-prop-types/lib/componentOrElement":276,"react-prop-types/lib/elementType":277,"warning":490}],261:[function(require,module,exports){
+},{"./ModalManager":261,"./Portal":263,"./utils/addEventListener":267,"./utils/addFocusListener":268,"./utils/getContainer":271,"./utils/ownerDocument":274,"dom-helpers/activeElement":105,"dom-helpers/query/contains":115,"dom-helpers/util/inDOM":132,"react":485,"react-prop-types/lib/componentOrElement":276,"react-prop-types/lib/elementType":277,"warning":491}],261:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -23539,7 +23539,7 @@ function routerWarning(falseToWarn, message) {
 function _resetWarned() {
   warned = {};
 }
-},{"warning":490}],315:[function(require,module,exports){
+},{"warning":491}],315:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -44169,6 +44169,345 @@ module.exports = warning;
 module.exports = require('./lib/React');
 
 },{"./lib/React":343}],486:[function(require,module,exports){
+(function () {
+
+  var root = this; 
+
+  if (typeof module !== 'undefined' && module.exports)
+    module.exports = factory;
+  else
+    root.simpleStopwatch = factory;
+
+  function factory (dur, fmt, res, pad) {
+
+    return new SimpleStopwatch(dur, fmt, res, pad);
+
+  }
+
+  function SimpleStopwatch (dur, fmt, res, pad) {
+
+    /* private vars */
+
+    var self = this;
+
+    var resolution = res || 1000;
+    var duration = dur || 0;
+    var format = fmt || (dur ? '%dh:%dm:%ds' : '%h:%m:%s');
+    var padding = pad || 0;
+
+    var milliseconds;
+    var started;
+    var timeout;
+
+    var events = {};
+
+    /* public methods */
+
+    function start () {
+
+      if (!running()) {
+
+        started = new Date().getTime();
+
+        if (milliseconds)
+          tick(resolution - (milliseconds % resolution));
+        else
+          tick();
+
+      }
+
+      emit('start resume', [time()]);
+
+      return self;
+
+    }
+
+    function stop () {
+
+      untick();
+
+      emit('stop pause', [time()]);
+
+      return self;
+
+    }
+
+    function toggle () {
+
+      if (running())
+        stop();
+      else
+        start();
+
+      return self;
+
+    }
+
+    function reset () {
+
+      var wasRunning = running();
+
+      untick();
+
+      started = undefined;
+      milliseconds = 0;
+
+      if (wasRunning)
+        start();
+
+      emit('reset', [time(0)]);
+
+      return self;
+
+    }
+
+    function on (event, handler) {
+
+      event = event.split(' ');
+
+      for (var i = 0; i < event.length; i++) {
+
+        if (event[i].length) {
+
+          if (!events[event[i]])
+            events[event[i]] = [handler];
+          else
+            events[event[i]].push(handler);
+
+        }
+      }
+
+      return self;
+
+    }
+
+    function off (event, handler) {
+
+      event = event.split(' ');
+
+      for (var i = 0; i < event.length; i++) {
+        
+        if (events[event[i]]) {
+
+          for (var j = 0; j < events[event[i]].length; j++) {
+
+            if (events[event[i]][j] == handler)
+              events[event[i]].splice(j, 1),
+              j--;
+
+          }
+        }
+      }
+
+      return self;
+
+    }
+
+    function current () {
+
+      if (running()) {
+
+        return new Date().getTime() - started + (milliseconds || 0);
+
+      } else {
+
+        return milliseconds || 0;
+
+      }
+    }
+
+    function running () {
+
+      return typeof timeout != 'undefined';
+
+    }
+
+    function time (mill, dur, fmt, p) {
+
+      if (typeof mill == 'undefined')
+        mill = current();
+
+      if (!dur)
+        dur = duration;
+
+      if (!fmt)
+        fmt = format;
+
+      if (typeof p == 'undefined')
+        p = padding;
+
+      var milliseconds = dMilliseconds = parseInt( mill % 1000 );
+      var seconds = dSeconds = parseInt( (mill / 1000) % 60 ) ;
+      var minutes = dMinutes = parseInt( ((mill / (1000 * 60)) % 60) );
+      var hours   = dHours = parseInt( ((mill / (1000 * 60 * 60)) % 24) );
+
+      if (dur) {
+
+        var dMill = dur - mill;
+
+        dMilliseconds = parseInt( dMill % 1000 );
+        dSeconds = parseInt( (dMill / 1000) % 60 ) ;
+        dMinutes = parseInt( ((dMill / (1000 * 60)) % 60) );
+        dHours   = parseInt( ((dMill / (1000 * 60 * 60)) % 24) );
+
+      }
+
+      return fmt.replace(/%dms/g, padNumber(dMilliseconds, p))
+        .replace(/%ds/g, padNumber(dSeconds, p))
+        .replace(/%dm/g, padNumber(dMinutes, p))
+        .replace(/%dh/g, padNumber(dHours, p))
+        .replace(/%ms/g, padNumber(milliseconds, p))
+        .replace(/%s/g, padNumber(seconds, p))
+        .replace(/%m/g, padNumber(minutes, p))
+        .replace(/%h/g, padNumber(hours, p));
+
+    }
+
+    /* private methods */
+
+    function emit (event, args) {
+
+      event = event.split(' ');
+
+      for (var i = 0; i < event.length; i++) {
+
+        if (events[event[i]]) {
+
+          for (var j = 0; j < events[event[i]].length; j++) {
+
+            events[event[i]][j].apply(self, args);
+
+          }
+        }
+      }
+    }
+
+    function padNumber (n, p) {
+
+      for (var i = 0; i < p; i++) {
+
+        var max = Math.pow(10, i + 1);
+
+        if (parseInt(n) < max)
+          n = '0' + n;
+
+      }
+
+      return n;
+
+    }
+
+    function alias (event) {
+
+      return function (handler) {
+
+        on(event, handler);
+
+        return self;
+
+      }
+    }
+
+    function tick (remaining) {
+
+      var c = current();
+      var next = remaining || resolution;
+
+      emit('tick', [time(c)]);
+
+      if (!duration || c + next < duration)
+        timeout = setTimeout(tick, next);
+      else
+        timeout = setTimeout(dong, duration - c);
+
+    }
+
+    function untick () {
+
+      milliseconds = current();
+
+      if(timeout)
+        clearTimeout(timeout),
+        timeout = undefined;
+
+    }
+
+    function dong () {
+
+      milliseconds = duration;
+
+      if(timeout)
+        clearTimeout(timeout),
+        timeout = undefined;
+
+      emit('dong', [time(duration)]);
+
+    }
+
+    /* expose public methods */
+
+    self.start = self.resume = start;
+    self.stop = self.pause = stop;
+    self.toggle = toggle;
+    self.reset = reset;
+    self.on = on;
+    self.off = off;
+    self.time = time;
+    self.current = current;
+    self.running = running;
+    self.padding = padding;
+
+    self.started = self.resumed = alias('start');
+    self.stopped = self.paused = alias('stop');
+    self.ticked = alias('tick');
+    self.donged = self.ended = alias('dong');
+
+    self.duration = function (dur) {
+
+      if (typeof dur == 'undefined') {
+        return duration; 
+      } else {
+        duration = dur;
+        return self; 
+      }
+    }
+
+    self.format = function (fmt) {
+
+      if (typeof fmt == 'undefined') {
+        return format;
+      } else {
+        format = fmt;
+        return self;
+      }
+    }
+
+    self.resolution = function (res) {
+
+      if (typeof res == 'undefined') {
+        return resolution;
+      } else {
+        resolution = res;
+        return self;
+      }
+    }
+
+    self.padding = function (pad) {
+
+      if (typeof pad == 'undefined') {
+        return padding;
+      } else {
+        padding = pad;
+        return self;
+      }
+    }
+
+    return self;
+
+  }
+
+})();
+},{}],487:[function(require,module,exports){
 'use strict';
 module.exports = function (str) {
 	return encodeURIComponent(str).replace(/[!'()*]/g, function (c) {
@@ -44176,7 +44515,7 @@ module.exports = function (str) {
 	});
 };
 
-},{}],487:[function(require,module,exports){
+},{}],488:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -44341,7 +44680,7 @@ function createUncontrollable(mixins, set) {
   }
 }
 module.exports = exports['default'];
-},{"./utils":489,"invariant":156,"react":485}],488:[function(require,module,exports){
+},{"./utils":490,"invariant":156,"react":485}],489:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -44373,7 +44712,7 @@ function set(component, propName, handler, value, args) {
 
 exports.default = (0, _createUncontrollable2.default)([mixin], set);
 module.exports = exports['default'];
-},{"./createUncontrollable":487}],489:[function(require,module,exports){
+},{"./createUncontrollable":488}],490:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -44492,9 +44831,9 @@ function isReactComponent(component) {
   return !!(component && component.prototype && component.prototype.isReactComponent);
 }
 }).call(this,require('_process'))
-},{"_process":160,"invariant":156,"react":485}],490:[function(require,module,exports){
+},{"_process":160,"invariant":156,"react":485}],491:[function(require,module,exports){
 arguments[4][154][0].apply(exports,arguments)
-},{"_process":160,"dup":154}],491:[function(require,module,exports){
+},{"_process":160,"dup":154}],492:[function(require,module,exports){
 'use strict';
 
 var Dispatcher = require('../dispatcher/AppDispatcher');
@@ -44513,7 +44852,7 @@ module.exports = {
 	}
 };
 
-},{"../constants/AppConstants":493,"../dispatcher/AppDispatcher":494}],492:[function(require,module,exports){
+},{"../constants/AppConstants":494,"../dispatcher/AppDispatcher":495}],493:[function(require,module,exports){
 'use strict';
 
 var React = require('react');
@@ -44544,7 +44883,7 @@ ReactDOM.render(React.createElement(
 	)
 ), document.getElementById('app'));
 
-},{"./route_components/About.react":495,"./route_components/Contact.react":497,"./route_components/Home.react":498,"./route_components/MainLayout.react":499,"./route_components/Products.react":501,"react":485,"react-dom":259,"react-router":309}],493:[function(require,module,exports){
+},{"./route_components/About.react":496,"./route_components/Contact.react":498,"./route_components/Home.react":499,"./route_components/MainLayout.react":500,"./route_components/Products.react":502,"react":485,"react-dom":259,"react-router":309}],494:[function(require,module,exports){
 "use strict";
 
 var keymirror = require("keymirror");
@@ -44556,13 +44895,13 @@ module.exports = keymirror({
 	SELECT: null
 });
 
-},{"keymirror":158}],494:[function(require,module,exports){
+},{"keymirror":158}],495:[function(require,module,exports){
 "use strict";
 
 var Dispatcher = require("flux").Dispatcher;
 module.exports = new Dispatcher();
 
-},{"flux":136}],495:[function(require,module,exports){
+},{"flux":136}],496:[function(require,module,exports){
 'use strict';
 
 var React = require('react');
@@ -44629,6 +44968,9 @@ var About = React.createClass({
 	onStateChange: function onStateChange() {
 		this.setState(AboutStore.getState);
 	},
+	componentWillMount: function componentWillMount() {
+		console.log(AboutStore.getTimer().started());
+	},
 	componentDidMount: function componentDidMount() {
 		AboutStore.addEventListener(this.onStateChange);
 	},
@@ -44664,14 +45006,22 @@ var About = React.createClass({
 				Button,
 				{ onClick: this.onShuffle, bsClass: 'custom-button' },
 				'Up'
+			),
+			React.createElement(
+				'p',
+				{ className: this.getTimerClass() },
+				this.state.timer
 			)
 		);
+	},
+	getTimerClass: function getTimerClass() {
+		if (this.state.expected === 1 || this.state.expected === 26) return 'timer';else return 'timer pulse';
 	}
 });
 
 module.exports = About;
 
-},{"../actions/AboutActions":491,"../stores/AboutStore":502,"react":485,"react-bootstrap":248}],496:[function(require,module,exports){
+},{"../actions/AboutActions":492,"../stores/AboutStore":503,"react":485,"react-bootstrap":248}],497:[function(require,module,exports){
 'use strict';
 
 var React = require('react');
@@ -44747,7 +45097,7 @@ var AppCarousel = React.createClass({
 
 module.exports = AppCarousel;
 
-},{"react":485,"react-bootstrap":248}],497:[function(require,module,exports){
+},{"react":485,"react-bootstrap":248}],498:[function(require,module,exports){
 'use strict';
 
 var React = require('react');
@@ -44766,7 +45116,7 @@ var Contact = React.createClass({
 
 module.exports = Contact;
 
-},{"react":485}],498:[function(require,module,exports){
+},{"react":485}],499:[function(require,module,exports){
 'use strict';
 
 var React = require('react');
@@ -44812,7 +45162,7 @@ var Home = React.createClass({
 
 module.exports = Home;
 
-},{"./Carousel.react":496,"react":485,"react-bootstrap":248}],499:[function(require,module,exports){
+},{"./Carousel.react":497,"react":485,"react-bootstrap":248}],500:[function(require,module,exports){
 'use strict';
 
 var React = require('react');
@@ -44884,7 +45234,7 @@ var Layout = React.createClass({
 
 module.exports = Layout;
 
-},{"./NavBar.react":500,"react":485,"react-bootstrap":248,"react-router":309}],500:[function(require,module,exports){
+},{"./NavBar.react":501,"react":485,"react-bootstrap":248,"react-router":309}],501:[function(require,module,exports){
 'use strict';
 
 var Navbar = require('react-bootstrap').Navbar;
@@ -44917,7 +45267,7 @@ var AppNavBar = React.createClass({
 });
 module.exports = AppNavBar;
 
-},{"react":485,"react-bootstrap":248}],501:[function(require,module,exports){
+},{"react":485,"react-bootstrap":248}],502:[function(require,module,exports){
 'use strict';
 
 var React = require('react');
@@ -44936,25 +45286,33 @@ var Product = React.createClass({
 
 module.exports = Product;
 
-},{"react":485}],502:[function(require,module,exports){
+},{"react":485}],503:[function(require,module,exports){
 'use strict';
 
 var AppDispatcher = require('../dispatcher/AppDispatcher');
 var Constants = require('../constants/AppConstants');
 var assign = require('object-assign');
+var simpleStopwatch = require('simple-stopwatch');
 var EventEmitter = require('events').EventEmitter;
 
 var CHANGE_EVENT = 'change';
 
 var list = [];
+
 var state = {
 	list: initialize(list),
 	expected: 1,
-	selected: []
+	selected: [],
+	timer: '0:0:0'
 };
 function initialize(array) {
 	return shuffle(populate(array));
 }
+
+var timer = simpleStopwatch().on('tick', function (time) {
+	state.timer = time;
+	AboutStore.emitEvent();
+});
 
 function populate(array) {
 	for (var i = 0; i < 25; i++) {
@@ -44989,6 +45347,9 @@ var AboutStore = assign({}, EventEmitter.prototype, {
 	getState: function getState() {
 		return state;
 	},
+	getTimer: function getTimer() {
+		return timer;
+	},
 	addEventListener: function addEventListener(callback) {
 		this.on(CHANGE_EVENT, callback);
 	},
@@ -45007,10 +45368,18 @@ AppDispatcher.register(function (action) {
 			state.list = array;
 			state.selected = [];
 			state.expected = 1;
+			state.timer = '0:0:0';
+			timer.reset();
+			timer.stop();
 			AboutStore.emitEvent();
 			break;
 		case Constants.SELECT:
 			if (action.Cell === state.expected) {
+
+				if (action.Cell === 1) timer.start();
+				if (state.expected === state.list.length) {
+					timer.stop();
+				}
 				state.expected = action.Cell + 1;
 				state.selected.push(action.Cell);
 				AboutStore.emitEvent();
@@ -45023,4 +45392,4 @@ AppDispatcher.register(function (action) {
 
 module.exports = AboutStore;
 
-},{"../constants/AppConstants":493,"../dispatcher/AppDispatcher":494,"events":134,"object-assign":159}]},{},[492]);
+},{"../constants/AppConstants":494,"../dispatcher/AppDispatcher":495,"events":134,"object-assign":159,"simple-stopwatch":486}]},{},[493]);
